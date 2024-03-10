@@ -22,12 +22,12 @@
 
 ## Sections 📚
 ✔️ Home\
-✔️ Resume
+✔️ Resume\
 ✔️ About me\
 ✔️ Education \
 ✔️ Skills \
 ✔️ Projects\
-✔️ Contact Info\
+✔️ Contact Info
 
 
 To view a live example, **[click here](https://mueezbaig.github.io/My-portfolio)**
