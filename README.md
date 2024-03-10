@@ -1,5 +1,5 @@
 # Personal Portfolio ⚡️ 
-> A clean, beautiful, responsive portfolio template for Software Developers!
+> A clean, beautiful, responsive portfolio template!
 
 > https://mueezbaig.github.io/My-portfolio
 
@@ -10,7 +10,7 @@
 ## Features 📋
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
-⚡️ Javascript
+⚡️ Javascript\
 ⚡️ Easy to modify
 
 ## Installation & Deployment 📦
@@ -22,12 +22,13 @@
 
 ## Sections 📚
 ✔️ Home\
+✔️ Resume
 ✔️ About me\
 ✔️ Education \
 ✔️ Skills \
 ✔️ Projects\
 ✔️ Contact Info\
-✔️ Resume
+
 
 To view a live example, **[click here](https://mueezbaig.github.io/My-portfolio)**
 
@@ -52,4 +53,7 @@ To view a live example, **[click here](https://mueezbaig.github.io/My-portfolio)
 #### Step 3
 
 - 🔃 Create a new pull request.
+
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
