@@ -25,8 +25,7 @@
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="Moizz Baig" width="103">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,12 +39,18 @@
             <li class="nav-item">
               <a class="nav-link nav-hover" href="#education">Education</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-hover" href="#experience">Experience</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link nav-hover" href="#skills">Skills</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-hover" href="#projects">Projects</a>
-            </li>
+          
+          <li class="nav-item">
+            <a class="nav-link nav-hover" href="#projects">Projects</a>
+          </li>
+        
             <li class="nav-item">
               <a class="nav-link nav-hover" href="#contact">Contact</a>
             </li>
@@ -97,6 +102,7 @@
 
       </div>
     </section>
+
     <section id="education">
       <div class="container py-5" id="featured-3">
         <h2 class="pb-2 border-bottom border-dark" data-aos="fade-up">Education</h2>
@@ -120,7 +126,7 @@
 
               <h3 class="fs-3">PCMC, Class XII (2020)</h3>
               <p class="fs-5">Marimallappa PU College, Mysuru</p>
-              <p>Passed the Intermediate examination in 2020 with 74% marks.</p>
+              <p>Passed the Intermediate examination in 2020 with 74.3% marks.</p>
             </div>
 
           </div>
@@ -139,80 +145,133 @@
         </div>
       </div>
     </section>
-    <section id="skills" class="py-5">
-      <h2 class="text-center mb-5" data-aos="fade-up">My Skills</h2>
-      <div class="container-fluid d-flex flex-wrap gap-3 align-items-center justify-content-center display-5">
-      
+    
+    <section id="experience">
+      <div class="container py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom border-dark" data-aos="fade-up">Experience</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+         <div class="col p-3">
+            <div class="experience p-3 rounded" data-aos="flip-right">
+                <i class="fa-solid fa-cog fs-2 mb-4"></i>
+                <h3 class="fs-3">Python Programming Intern</h3>
+                <p class="fs-5"><i class="fas fa-map-marker-alt"></i> MotionCut</p>
+                <ul>
+                    <li>Worked on real-world Python projects, gaining hands-on experience and deepening my understanding of the language.</li>
+                    <li>Contributed to the design and architecture of new features and Collaborated with the development team on project implementation and troubleshooting.</li>
+                    
+                </ul>
+            </div>
+          </div>
+
+          <div class="col p-3">
+            <div class="experience p-3 rounded" data-aos="flip-right">
+                <i class="fa-solid fa-cog fs-2 mb-4"></i>
+                <h3 class="fs-3">SQL Developer Intern</h3>
+                <p class="fs-5"><i class="fas fa-map-marker-alt"></i> Qspiders</p>
+                <ul>
+                    <li>Utilized diverse data sets and applied various data manipulationtechniques,
+                      handling different types of data.</li>
+                    <li>Employed a range of SQL methodologies to cleanse, transform, and analyze
+                      data, contributing to improved data quality aaccuracy.</li>
+                    <li> Collaborated with data science team to create and optimize SQL queries  for
+                      analytics purposes.</li>
+                </ul>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="experience p-3 rounded" data-aos="flip-right">
+                <i class="fa-solid fa-cog fs-2 mb-4"></i>
+                <h3 class="fs-3">Campus Guider</h3>
+                <p class="fs-5"><i class="fas fa-map-marker-alt"></i> Internshala</p>
+                <ul>
+                    <li> Communicated with colleges to set up skills-oriented courses for campus use.</li>
+                    <li>Spread awareness among students for model technology education to enhance their skills.</li>
+                    <li> Provided guidance and mentorship to students seeking advice on career paths in technology</li>
+                    <li>Initiated campaigns to raise awareness among students.</li>
+                </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+  
+<section id="skills">
+  <div class="container py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom border-dark text-center" data-aos="fade-up">My Skills</h2>
+
+    <div class="container-fluid d-flex flex-wrap gap-3 align-items-center justify-content-center display-5">
+
         <i class="fa-brands fa-html5" data-aos="zoom-in"></i>
         <i class="fa-brands fa-css3" data-aos="zoom-in"></i>
         <i class="fa-brands fa-c" data-aos="zoom-in"></i>
         <i class="fa-brands fa-python" data-aos="zoom-in"></i>
         <i class="fa-brands fa-database" data-aos="zoom-in"></i> <!-- Assuming SQL -->
         <i class="fa-brands fa-git" data-aos="zoom-in"></i>
+    </div>
+  </div>
+</section>
 
+<section id="projects" >
+<div class="container py-5" id="featured-3">
 
+  <h2 class="pb-2 border-bottom border-dark text-center" data-aos="fade-up">My Projects</h2>
 
-
+      <div class="row">
+    <div class="col-lg-6">
+      <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="images/petrol.jpg" alt="project" class="card-img-top" onclick="toggleBlur(this)">
+        <div class="card-body">
+            <h5 class="card-title">Effective Liquified Fuel Management System</h5>
+            <p class="card-text">
+              <strong>Languages and Frameworks Used:</strong> Python, SQL Database, Python's Library Streamlit <br> <br>
+              <strong>Description:</strong> 
+              Petrol pump management system is developed to manage daily records of petrol pump. Using this system, the admin can check employee attendance, quantity of petrol and diesel sold on any day, week, or month. The sales module allows the admin to check which employee sold how much diesel or petrol. Admin can also check the total oil purchase by the petrol pump. <br> <br>
+              <strong>Contributions:</strong> 
+              • Led team project for efficient transaction management, ensuring accurate frontend to backend data integration. Implemented Streamlit for a user-friendly interface. Collaborated on optimized database design, enhancing data retrieval speed. Achieved heightened system efficiency.
+            </p>
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://github.com/mueezbaig/EFFECTIVE-LIQUIFIED-FUEL-PROCESSING-SYSTEM" target="_blank">
+                  <i class="fab fa-github"></i>
+              </a>
+          </div>
+          
+        </div>
+          
       </div>
-    </section>
-    <section id="projects" class="py-5 my-5">
-        <h2 class="text-center" data-aos="fade-up">My Projects</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <img src="images/petrol.jpg" alt="project" class="card-img-top" onclick="toggleBlur(this)">
-                <div class="card-body">
-                    <h5 class="card-title">Effective Liquified Fuel Management System</h5>
-                    <p class="card-text">
-                      <strong>Languages and Frameworks Used:</strong> Python, SQL Database, Python's Library Streamlit <br> <br>
-                      <strong>Description:</strong> 
-                      Petrol pump management system is developed to manage daily records of petrol pump. Using this system, the admin can check employee attendance, quantity of petrol and diesel sold on any day, week, or month. The sales module allows the admin to check which employee sold how much diesel or petrol. Admin can also check the total oil purchase by the petrol pump. <br> <br>
-                      <strong>Contributions:</strong> 
-                      • Led team project for efficient transaction management, ensuring accurate frontend to backend data integration. Implemented Streamlit for a user-friendly interface. Collaborated on optimized database design, enhancing data retrieval speed. Achieved heightened system efficiency.
-                    </p>
-                    <div class="d-flex gap-3 fs-4">
-                      <a href="https://github.com/mueezbaig/EFFECTIVE-LIQUIFIED-FUEL-PROCESSING-SYSTEM" target="_blank">
-                          <i class="fab fa-github"></i>
-                      </a>
-                  </div>
-                  
-                </div>
-                  
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <img src="images/bank.jpg" onclick="toggleBlur(this)">
-                <div class="card-body">
-                    <h5 class="card-title">IFSC Info Hub [Android app]</h5>
-                    <p class="card-text">
-                      <strong>Languages and Frameworks Used:</strong> Java, XML , Android Studio <br> <br>
-                      <strong>Description:</strong> 
-                      The application provides a user-friendly interface where users 
-                      can enter the IFSC code of a bank branch to access relevant information. Utilizing the Razorpay IFSC API, the application fetches and displays essential details associated with the provided IFSC code, including the bank's MICR code, branch name, address, state, contact information, and various transaction systems supported by the branch. <br> <br>
-                      <strong>Contributions:</strong> 
-                      • LedAndroidproject for IFSC code details. Ensured seamless API connection,
-                      monitored errors. Used Razor Pay API for real-time data. Implemented se
-                     cure user authentication
-                    </p>
-                    <div class="d-flex gap-3 fs-4">
-                      <a href="https://github.com/mueezbaig/IFSC-Info-Hub-Android-app" target="_blank">
-                          <i class="fab fa-github"></i>
-                      </a>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img src="images/bank.jpg" onclick="toggleBlur(this)">
+        <div class="card-body">
+            <h5 class="card-title">IFSC Info Hub [Android app]</h5>
+            <p class="card-text">
+              <strong>Languages and Frameworks Used:</strong> Java, XML , Android Studio <br> <br>
+              <strong>Description:</strong> 
+              The application provides a user-friendly interface where users 
+              can enter the IFSC code of a bank branch to access relevant information. Utilizing the Razorpay IFSC API, the application fetches and displays essential details associated with the provided IFSC code, including the bank's MICR code, branch name, address, state, contact information, and various transaction systems supported by the branch. <br> <br>
+              <strong>Contributions:</strong> 
+              • LedAndroidproject for IFSC code details. Ensured seamless API connection,
+              monitored errors. Used Razor Pay API for real-time data. Implemented se
+             cure user authentication
+            </p>
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://github.com/mueezbaig/IFSC-Info-Hub-Android-app" target="_blank">
+                  <i class="fab fa-github"></i>
+              </a>
+          </div>
           </div>
         </div>
-      </section>
-      
-    <section id="contact" data-aos="fade-up">
-      <div class="container">
-        <div class="row my-5 py-5">
-          <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+  <section id="contact" data-aos="fade-up">
+    <div class="container">
+      <div class="row my-5 py-5">
+        <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
             <h1 class="display-5 fw-bold mb-3">Contact Me</h1>
             <p class="fs-5">Prefer email? Reach out to me at <i class="fa-solid envelope"></i> <a
                 href="mailto:moizzbaig613@gmail.com" target="_blank" style="color: black;">moizzbaig613@gmail.com</a></p>
@@ -257,6 +316,24 @@
   <script src="https://cdn.jsdelivr.net/npm/typeit/dist/typeit.min.js"></script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Get all navbar links
+      const navbarLinks = document.querySelectorAll('.nav-link');
+
+      // Add event listener to each navbar link
+      navbarLinks.forEach(function(navbarLink) {
+        navbarLink.addEventListener('click', function() {
+          // Collapse the navbar when a link is clicked
+          const navbarCollapse = document.getElementById('navbarSupportedContent');
+          if (navbarCollapse.classList.contains('show')) {
+            navbarCollapse.classList.remove('show');
+          }
+        });
+      });
+    });
+  </script>
   <script>
     AOS.init();
   </script>
