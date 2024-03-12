@@ -27,6 +27,7 @@
 ✔️ Education \
 ✔️ Skills \
 ✔️ Projects\
+✔️ Experience\
 ✔️ Contact Info
 
 
