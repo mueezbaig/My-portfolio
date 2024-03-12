@@ -14,18 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Function to scroll to the top of the page
     function scrollToTop() {
         window.scrollTo({
-            top: 0
+            top: 0,
+            behavior: "smooth" // Smooth scroll to top
         });
-    }
-
-    // Function to hide the scrollbar
-    function hideScrollbar() {
-        document.body.style.overflow = "hidden";
-    }
-
-    // Function to show the scrollbar
-    function showScrollbar() {
-        document.body.style.overflow = "auto";
     }
 
     // Add scroll event listener to the window
@@ -34,12 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add click event listener to the scroll button
     scrollBtn.addEventListener("click", scrollToTop);
     
-    // Add touchmove event listener to hide scrollbar when scrolling
-    document.addEventListener('touchmove', hideScrollbar);
-    
-    // Add touchend event listener to show scrollbar when touch ends
-    document.addEventListener('touchend', showScrollbar);
-    
     // Initially hide the scroll button on page load
     toggleScrollBtn();
 });
+
